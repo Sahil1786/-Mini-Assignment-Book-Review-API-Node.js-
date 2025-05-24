@@ -70,7 +70,7 @@ A comprehensive RESTful API for a Book Review system built with Node.js, Express
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone  https://github.com/Sahil1786/-Mini-Assignment-Book-Review-API-Node.js-
    cd book-review-api
    ```
 
@@ -275,9 +275,7 @@ curl "http://localhost:3000/api/search?query=orwell"
 2. Set up environment variables for base URL and token
 3. Test each endpoint with the provided examples
 
-## 🚀 Deployment
 
-### Vercel Deployment
 
 1. **Push to GitHub:**
 ```bash
@@ -286,10 +284,7 @@ git commit -m "Initial commit"
 git push origin main
 ```
 
-2. **Deploy to Vercel:**
-   - Connect your GitHub repository to Vercel
-   - Set environment variables in Vercel dashboard
-   - Deploy automatically
+
 
 3. **Environment Variables for Production:**
    - `MONGODB_URI`: Your MongoDB Atlas connection string
